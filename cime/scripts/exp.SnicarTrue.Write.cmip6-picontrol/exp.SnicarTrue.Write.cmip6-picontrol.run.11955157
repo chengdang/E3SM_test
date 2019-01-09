@@ -1,0 +1,48 @@
+Generating namelists for /global/u2/c/cdang/E3SM_code_v1_mdf/20180420_SW_snicar/cime/scripts/exp.SnicarTrue.Write.cmip6-picontrol
+ - Prestaging REFCASE (/project/projectdirs/acme/inputdata/e3sm_init/20171228.beta3rc13_1850.ne30_oECv3_ICG.edison/0331-01-01) to /global/cscratch1/sd/cdang/acme_scratch/edison/exp.SnicarTrue.Write.cmip6-picontrol/run
+Copy rpointer /project/projectdirs/acme/inputdata/e3sm_init/20171228.beta3rc13_1850.ne30_oECv3_ICG.edison/0331-01-01/rpointer.ice
+Copy rpointer /project/projectdirs/acme/inputdata/e3sm_init/20171228.beta3rc13_1850.ne30_oECv3_ICG.edison/0331-01-01/rpointer.lnd
+Copy rpointer /project/projectdirs/acme/inputdata/e3sm_init/20171228.beta3rc13_1850.ne30_oECv3_ICG.edison/0331-01-01/rpointer.rof
+Copy rpointer /project/projectdirs/acme/inputdata/e3sm_init/20171228.beta3rc13_1850.ne30_oECv3_ICG.edison/0331-01-01/rpointer.atm
+Copy rpointer /project/projectdirs/acme/inputdata/e3sm_init/20171228.beta3rc13_1850.ne30_oECv3_ICG.edison/0331-01-01/rpointer.ocn
+Copy rpointer /project/projectdirs/acme/inputdata/e3sm_init/20171228.beta3rc13_1850.ne30_oECv3_ICG.edison/0331-01-01/rpointer.drv
+Creating component namelists
+   Running /global/u2/c/cdang/E3SM_code_v1_mdf/20180420_SW_snicar/components/cam/cime_config/buildnml 
+CAM writing dry deposition namelist to drv_flds_in 
+CAM writing namelist to atm_in
+   Running /global/u2/c/cdang/E3SM_code_v1_mdf/20180420_SW_snicar/components/clm/cime_config/buildnml 
+Warning:: running with user defined cppdefs is NOT validated / scientifically supported.
+CLM configure done.
+CLM adding use_case 1850_CMIP6_control defaults for var 'finidat' with val 'lnd/clm2/initdata_map/I1850CLM45.ne30_oECv3.edison.intel.36b43c9.clm2.r.0001-01-06-00000_c20171023.nc '
+CLM adding use_case 1850_CMIP6_control defaults for var 'flanduse_timeseries' with val 'lnd/clm2/surfdata_map/landuse.timeseries_ne30np4_hist_simyr1850_c20171102.nc '
+CLM adding use_case 1850_CMIP6_control defaults for var 'fsurdat' with val 'lnd/clm2/surfdata_map/surfdata_ne30np4_simyr1850_2015_c171018.nc '
+CLM adding use_case 1850_CMIP6_control defaults for var 'sim_year' with val '1850'
+CLM adding use_case 1850_CMIP6_control defaults for var 'sim_year_range' with val 'constant'
+CLM adding use_case 1850_CMIP6_control defaults for var 'use_case_desc' with val 'Conditions to simulate 1850 land-use'
+   Running /global/u2/c/cdang/E3SM_code_v1_mdf/20180420_SW_snicar/components/mpas-seaice/cime_config/buildnml 
+SRCROOT IS: /global/u2/c/cdang/E3SM_code_v1_mdf/20180420_SW_snicar
+MPASSI build-namelist: ice_grid is oEC60to30v3 
+OK -- found /global/cscratch1/sd/cdang/acme_scratch/edison/exp.SnicarTrue.Write.cmip6-picontrol/run/mpascice.rst.0331-01-01_00000.nc
+OK -- found /project/projectdirs/acme/inputdata/ice/mpas-cice/oEC60to30v3/mpas-cice.graph.info.161222.part.640
+   Running /global/u2/c/cdang/E3SM_code_v1_mdf/20180420_SW_snicar/components/mpas-ocean/cime_config/buildnml 
+SRCROOT IS: /global/u2/c/cdang/E3SM_code_v1_mdf/20180420_SW_snicar
+MPASO build-namelist: ocn_grid is oEC60to30v3 
+OK -- found /project/projectdirs/acme/inputdata/ocn/mpas-o/oEC60to30v3/oEC60to30v3_60layer.restartFrom_anvil0926.171101.nc
+OK -- found /global/cscratch1/sd/cdang/acme_scratch/edison/exp.SnicarTrue.Write.cmip6-picontrol/run/mpaso.rst.0331-01-01_00000.nc
+OK -- found /project/projectdirs/acme/inputdata/ocn/mpas-o/oEC60to30v3/oEC60to30v3_Atlantic_region_and_southern_transect.nc
+OK -- found /project/projectdirs/acme/inputdata/ocn/mpas-o/oEC60to30v3/mpas-o.graph.info.161222.part.240
+   Running /global/u2/c/cdang/E3SM_code_v1_mdf/20180420_SW_snicar/components/mosart/cime_config/buildnml 
+   Calling /global/u2/c/cdang/E3SM_code_v1_mdf/20180420_SW_snicar/cime/src/components/stub_comps/sglc/cime_config/buildnml
+   Calling /global/u2/c/cdang/E3SM_code_v1_mdf/20180420_SW_snicar/cime/src/components/stub_comps/swav/cime_config/buildnml
+   Calling /global/u2/c/cdang/E3SM_code_v1_mdf/20180420_SW_snicar/cime/src/components/stub_comps/sesp/cime_config/buildnml
+   Calling /global/u2/c/cdang/E3SM_code_v1_mdf/20180420_SW_snicar/cime/src/drivers/mct/cime_config/buildnml
+Finished creating component namelists
+-------------------------------------------------------------------------
+ - Prestage required restarts into /global/cscratch1/sd/cdang/acme_scratch/edison/exp.SnicarTrue.Write.cmip6-picontrol/run
+ - Case input data directory (DIN_LOC_ROOT) is /project/projectdirs/acme/inputdata 
+ - Checking for required input datasets in DIN_LOC_ROOT
+-------------------------------------------------------------------------
+2019-01-06 01:27:34 MODEL EXECUTION BEGINS HERE
+run command is srun  --label  -n 936  -c 2  --cpu_bind=cores  /global/cscratch1/sd/cdang/acme_scratch/edison/exp.SnicarTrue.Write.cmip6-picontrol/bld/e3sm.exe  >> e3sm.log.$LID 2>&1  
+ERROR: RUN FAIL: Command 'srun  --label  -n 936  -c 2  --cpu_bind=cores  /global/cscratch1/sd/cdang/acme_scratch/edison/exp.SnicarTrue.Write.cmip6-picontrol/bld/e3sm.exe  >> e3sm.log.$LID 2>&1 ' failed
+See log file for details: /global/cscratch1/sd/cdang/acme_scratch/edison/exp.SnicarTrue.Write.cmip6-picontrol/run/e3sm.log.11955157.190106-012602

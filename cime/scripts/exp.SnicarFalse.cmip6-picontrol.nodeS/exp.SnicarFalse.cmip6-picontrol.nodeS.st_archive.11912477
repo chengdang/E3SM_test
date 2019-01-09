@@ -1,0 +1,24 @@
+st_archive starting
+moving /global/cscratch1/sd/cdang/acme_scratch/edison/exp.SnicarFalse.cmip6-picontrol.nodeS/run/atm.log.11912476.190103-143314.gz to /global/cscratch1/sd/cdang/acme_scratch/edison/archive/exp.SnicarFalse.cmip6-picontrol.nodeS/logs/atm.log.11912476.190103-143314.gz
+moving /global/cscratch1/sd/cdang/acme_scratch/edison/exp.SnicarFalse.cmip6-picontrol.nodeS/run/rof.log.11912476.190103-143314.gz to /global/cscratch1/sd/cdang/acme_scratch/edison/archive/exp.SnicarFalse.cmip6-picontrol.nodeS/logs/rof.log.11912476.190103-143314.gz
+moving /global/cscratch1/sd/cdang/acme_scratch/edison/exp.SnicarFalse.cmip6-picontrol.nodeS/run/cpl.log.11912476.190103-143314.gz to /global/cscratch1/sd/cdang/acme_scratch/edison/archive/exp.SnicarFalse.cmip6-picontrol.nodeS/logs/cpl.log.11912476.190103-143314.gz
+moving /global/cscratch1/sd/cdang/acme_scratch/edison/exp.SnicarFalse.cmip6-picontrol.nodeS/run/ice.log.11912476.190103-143314.gz to /global/cscratch1/sd/cdang/acme_scratch/edison/archive/exp.SnicarFalse.cmip6-picontrol.nodeS/logs/ice.log.11912476.190103-143314.gz
+moving /global/cscratch1/sd/cdang/acme_scratch/edison/exp.SnicarFalse.cmip6-picontrol.nodeS/run/lnd.log.11912476.190103-143314.gz to /global/cscratch1/sd/cdang/acme_scratch/edison/archive/exp.SnicarFalse.cmip6-picontrol.nodeS/logs/lnd.log.11912476.190103-143314.gz
+moving /global/cscratch1/sd/cdang/acme_scratch/edison/exp.SnicarFalse.cmip6-picontrol.nodeS/run/e3sm.log.11912476.190103-143314.gz to /global/cscratch1/sd/cdang/acme_scratch/edison/archive/exp.SnicarFalse.cmip6-picontrol.nodeS/logs/e3sm.log.11912476.190103-143314.gz
+moving /global/cscratch1/sd/cdang/acme_scratch/edison/exp.SnicarFalse.cmip6-picontrol.nodeS/run/ocn.log.11912476.190103-143314.gz to /global/cscratch1/sd/cdang/acme_scratch/edison/archive/exp.SnicarFalse.cmip6-picontrol.nodeS/logs/ocn.log.11912476.190103-143314.gz
+-------------------------------------------
+Archiving restarts for date date(1, 1, 6, 0, 0, 0)
+-------------------------------------------
+ WARNING: ncdump -v nhfil /global/cscratch1/sd/cdang/acme_scratch/edison/exp.SnicarFalse.cmip6-picontrol.nodeS/run/exp.SnicarFalse.cmip6-picontrol.nodeS.cam.rs.0001-01-06-00000.nc  failed rc=1
+    out=
+    err=ncdump: nhfil: No such variable
+ WARNING: ncdump -v locfnh /global/cscratch1/sd/cdang/acme_scratch/edison/exp.SnicarFalse.cmip6-picontrol.nodeS/run/exp.SnicarFalse.cmip6-picontrol.nodeS.clm2.rh0.0001-01-06-00000.nc  failed rc=1
+    out=
+    err=ncdump: locfnh: No such variable
+Archiving history files for cam (atm)
+Archiving history files for clm (lnd)
+Archiving history files for mpascice (ice)
+Archiving history files for mpaso (ocn)
+Archiving history files for mosart (rof)
+Archiving history files for drv (cpl)
+st_archive completed

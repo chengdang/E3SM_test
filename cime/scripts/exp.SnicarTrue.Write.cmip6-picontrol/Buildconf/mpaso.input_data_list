@@ -1,0 +1,4 @@
+mesh = /project/projectdirs/acme/inputdata/ocn/mpas-o/oEC60to30v3/oEC60to30v3_60layer.restartFrom_anvil0926.171101.nc
+ic = /global/cscratch1/sd/cdang/acme_scratch/edison/exp.SnicarTrue.Write.cmip6-picontrol/run/mpaso.rst.0331-01-01_00000.nc
+moc = /project/projectdirs/acme/inputdata/ocn/mpas-o/oEC60to30v3/oEC60to30v3_Atlantic_region_and_southern_transect.nc
+graph240 = /project/projectdirs/acme/inputdata/ocn/mpas-o/oEC60to30v3/mpas-o.graph.info.161222.part.240

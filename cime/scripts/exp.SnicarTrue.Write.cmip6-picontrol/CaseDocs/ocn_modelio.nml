@@ -1,0 +1,13 @@
+&modelio
+  diri = "/global/cscratch1/sd/cdang/acme_scratch/edison/exp.SnicarTrue.Write.cmip6-picontrol/bld/ocn"
+  diro = "/global/cscratch1/sd/cdang/acme_scratch/edison/exp.SnicarTrue.Write.cmip6-picontrol/run"
+  logfile = "ocn.log.11973338.190109-122714"
+/
+&pio_inparm
+  pio_netcdf_format = "64bit_offset"
+  pio_numiotasks = -99
+  pio_rearranger = 1
+  pio_root = 0
+  pio_stride = 24
+  pio_typename = "netcdf"
+/

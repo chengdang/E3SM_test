@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config_definition>
+<entry id="ocn_grid" value="oEC60to30v3">
+<entry id="decomp_prefix" value="mpas-o.graph.info.">
+<entry id="date_stamp" value="161222">
+</config_definition>

@@ -1,0 +1,5 @@
+&comp_inparm 
+finidat = '20171228.beta3rc13_1850.ne30_oECv3_ICG.edison.clm2.r.0331-01-01-00000.nc' 
+
+ check_finidat_year_consistency = .false.
+/ 

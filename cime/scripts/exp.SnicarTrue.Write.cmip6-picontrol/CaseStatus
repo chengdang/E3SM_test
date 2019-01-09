@@ -1,0 +1,128 @@
+2019-01-05 12:23:24: xmlchange success <command> ./xmlchange --force --append CAM_CONFIG_OPTS=-cosp  </command>
+ ---------------------------------------------------
+2019-01-05 12:23:24: xmlchange success <command> ./xmlchange --force --id BUDGETS --val TRUE  </command>
+ ---------------------------------------------------
+2019-01-05 12:23:24: xmlchange success <command> ./xmlchange --force PIO_TYPENAME=netcdf  </command>
+ ---------------------------------------------------
+2019-01-05 12:23:48: xmlchange success <command> ./xmlchange -file env_run.xml -id HIST_OPTION -val nyears  </command>
+ ---------------------------------------------------
+2019-01-05 12:23:49: xmlchange success <command> ./xmlchange -file env_run.xml -id HIST_N -val 1  </command>
+ ---------------------------------------------------
+2019-01-05 12:23:50: xmlchange success <command> ./xmlchange -file env_run.xml -id STOP_OPTION -val ndays  </command>
+ ---------------------------------------------------
+2019-01-05 12:23:50: xmlchange success <command> ./xmlchange -file env_run.xml -id STOP_N -val 5  </command>
+ ---------------------------------------------------
+2019-01-05 12:23:51: xmlchange success <command> ./xmlchange -file env_batch.xml -id JOB_WALLCLOCK_TIME -val 00:30:00  </command>
+ ---------------------------------------------------
+2019-01-05 12:23:52: xmlchange success <command> ./xmlchange -file env_batch.xml -id JOB_QUEUE -val debug  </command>
+ ---------------------------------------------------
+2019-01-05 12:23:55: case.setup starting 
+ ---------------------------------------------------
+2019-01-05 12:25:10: case.setup success 
+ ---------------------------------------------------
+2019-01-05 12:30:34: case.build starting 
+ ---------------------------------------------------
+2019-01-05 13:12:02: case.build error 
+ERROR: BUILD FAIL: mpascice.buildlib failed, cat /global/cscratch1/sd/cdang/acme_scratch/edison/exp.SnicarTrue.Write.cmip6-picontrol/bld/ice.bldlog.190105-123034
+ ---------------------------------------------------
+2019-01-05 13:57:01: case.build starting 
+ ---------------------------------------------------
+2019-01-05 13:59:36: case.build error 
+ERROR: BUILD FAIL: mpascice.buildlib failed, cat /global/cscratch1/sd/cdang/acme_scratch/edison/exp.SnicarTrue.Write.cmip6-picontrol/bld/ice.bldlog.190105-135701
+ ---------------------------------------------------
+2019-01-05 14:06:18: case.build starting 
+ ---------------------------------------------------
+2019-01-05 14:19:13: case.build success 
+ ---------------------------------------------------
+2019-01-05 14:19:22: case.submit starting 
+ ---------------------------------------------------
+2019-01-05 14:20:35: case.submit success case.run:11953101
+ ---------------------------------------------------
+2019-01-05 17:38:22: case.run starting 
+ ---------------------------------------------------
+2019-01-05 17:40:20: model execution starting 
+ ---------------------------------------------------
+2019-01-05 17:41:43: model execution success 
+ ---------------------------------------------------
+2019-01-05 17:41:43: case.run error 
+ERROR: RUN FAIL: Command 'srun  --label  -n 936  -c 2  --cpu_bind=cores  /global/cscratch1/sd/cdang/acme_scratch/edison/exp.SnicarTrue.Write.cmip6-picontrol/bld/e3sm.exe  >> e3sm.log.$LID 2>&1 ' failed
+See log file for details: /global/cscratch1/sd/cdang/acme_scratch/edison/exp.SnicarTrue.Write.cmip6-picontrol/run/e3sm.log.11953101.190105-173822
+ ---------------------------------------------------
+2019-01-05 18:51:27: case.submit starting 
+ ---------------------------------------------------
+2019-01-05 18:52:41: case.submit success case.run:11953907
+ ---------------------------------------------------
+2019-01-05 20:41:16: case.run starting 
+ ---------------------------------------------------
+2019-01-05 20:42:46: model execution starting 
+ ---------------------------------------------------
+2019-01-05 20:44:44: model execution success 
+ ---------------------------------------------------
+2019-01-05 20:44:44: case.run error 
+ERROR: RUN FAIL: Command 'srun  --label  -n 936  -c 2  --cpu_bind=cores  /global/cscratch1/sd/cdang/acme_scratch/edison/exp.SnicarTrue.Write.cmip6-picontrol/bld/e3sm.exe  >> e3sm.log.$LID 2>&1 ' failed
+See log file for details: /global/cscratch1/sd/cdang/acme_scratch/edison/exp.SnicarTrue.Write.cmip6-picontrol/run/e3sm.log.11953907.190105-204116
+ ---------------------------------------------------
+2019-01-05 23:05:50: case.submit starting 
+ ---------------------------------------------------
+2019-01-05 23:07:00: case.submit success case.run:11954561
+ ---------------------------------------------------
+2019-01-06 00:39:26: case.run starting 
+ ---------------------------------------------------
+2019-01-06 00:40:52: model execution starting 
+ ---------------------------------------------------
+2019-01-06 00:42:14: model execution success 
+ ---------------------------------------------------
+2019-01-06 00:42:14: case.run error 
+ERROR: RUN FAIL: Command 'srun  --label  -n 936  -c 2  --cpu_bind=cores  /global/cscratch1/sd/cdang/acme_scratch/edison/exp.SnicarTrue.Write.cmip6-picontrol/bld/e3sm.exe  >> e3sm.log.$LID 2>&1 ' failed
+See log file for details: /global/cscratch1/sd/cdang/acme_scratch/edison/exp.SnicarTrue.Write.cmip6-picontrol/run/e3sm.log.11954561.190106-003926
+ ---------------------------------------------------
+2019-01-06 01:15:57: case.submit starting 
+ ---------------------------------------------------
+2019-01-06 01:17:06: case.submit success case.run:11955157
+ ---------------------------------------------------
+2019-01-06 01:26:02: case.run starting 
+ ---------------------------------------------------
+2019-01-06 01:27:36: model execution starting 
+ ---------------------------------------------------
+2019-01-06 01:29:39: model execution success 
+ ---------------------------------------------------
+2019-01-06 01:29:39: case.run error 
+ERROR: RUN FAIL: Command 'srun  --label  -n 936  -c 2  --cpu_bind=cores  /global/cscratch1/sd/cdang/acme_scratch/edison/exp.SnicarTrue.Write.cmip6-picontrol/bld/e3sm.exe  >> e3sm.log.$LID 2>&1 ' failed
+See log file for details: /global/cscratch1/sd/cdang/acme_scratch/edison/exp.SnicarTrue.Write.cmip6-picontrol/run/e3sm.log.11955157.190106-012602
+ ---------------------------------------------------
+2019-01-06 02:41:18: case.submit starting 
+ ---------------------------------------------------
+2019-01-06 02:42:28: case.submit success case.run:11955584
+ ---------------------------------------------------
+2019-01-06 02:44:50: case.run starting 
+ ---------------------------------------------------
+2019-01-06 02:46:21: model execution starting 
+ ---------------------------------------------------
+2019-01-06 02:47:53: model execution success 
+ ---------------------------------------------------
+2019-01-06 02:47:53: case.run error 
+ERROR: RUN FAIL: Command 'srun  --label  -n 936  -c 2  --cpu_bind=cores  /global/cscratch1/sd/cdang/acme_scratch/edison/exp.SnicarTrue.Write.cmip6-picontrol/bld/e3sm.exe  >> e3sm.log.$LID 2>&1 ' failed
+See log file for details: /global/cscratch1/sd/cdang/acme_scratch/edison/exp.SnicarTrue.Write.cmip6-picontrol/run/e3sm.log.11955584.190106-024450
+ ---------------------------------------------------
+2019-01-09 11:12:46: case.setup starting 
+ ---------------------------------------------------
+2019-01-09 11:13:53: case.setup success 
+ ---------------------------------------------------
+2019-01-09 12:02:39: case.build starting 
+ ---------------------------------------------------
+2019-01-09 12:06:44: case.build success 
+ ---------------------------------------------------
+2019-01-09 12:24:59: case.submit starting 
+ ---------------------------------------------------
+2019-01-09 12:26:09: case.submit success case.run:11973338
+ ---------------------------------------------------
+2019-01-09 12:27:14: case.run starting 
+ ---------------------------------------------------
+2019-01-09 12:28:28: model execution starting 
+ ---------------------------------------------------
+2019-01-09 12:30:00: model execution success 
+ ---------------------------------------------------
+2019-01-09 12:30:00: case.run error 
+ERROR: RUN FAIL: Command 'srun  --label  -n 936  -c 2  --cpu_bind=cores  /global/cscratch1/sd/cdang/acme_scratch/edison/exp.SnicarTrue.Write.cmip6-picontrol/bld/e3sm.exe  >> e3sm.log.$LID 2>&1 ' failed
+See log file for details: /global/cscratch1/sd/cdang/acme_scratch/edison/exp.SnicarTrue.Write.cmip6-picontrol/run/e3sm.log.11973338.190109-122714
+ ---------------------------------------------------

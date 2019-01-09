@@ -1,0 +1,13 @@
+&mosart_inparm
+ coupling_period = 10800
+ decomp_option = 'roundrobin'
+ delt_mosart = 3600
+ do_rtm = .true.
+ finidat_rtm = '20171228.beta3rc13_1850.ne30_oECv3_ICG.edison.mosart.r.0331-01-01-00000.nc'
+ frivinp_rtm = '/project/projectdirs/acme/inputdata/rof/mosart/MOSART_Global_half_20161014c.nc'
+ ice_runoff = .true.
+ rtmhist_mfilt = 30
+ rtmhist_ndens = 2
+ rtmhist_nhtfrq = 0
+ smat_option = 'Xonly'
+/

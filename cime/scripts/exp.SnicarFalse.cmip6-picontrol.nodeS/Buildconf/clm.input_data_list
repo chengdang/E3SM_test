@@ -1,0 +1,9 @@
+flanduse_timeseries = /project/projectdirs/acme/inputdata/lnd/clm2/surfdata_map/landuse.timeseries_ne30np4_hist_simyr1850_c20171102.nc
+stream_fldfilename_lai = /project/projectdirs/acme/inputdata/lnd/clm2/lai_streams/MODISPFTLAI_0.5x0.5_c140711.nc
+finidat = 20171228.beta3rc13_1850.ne30_oECv3_ICG.edison.clm2.r.0331-01-01-00000.nc
+paramfile = /project/projectdirs/acme/inputdata/lnd/clm2/paramdata/clm_params_c180301.nc
+fatmlndfrc = /project/projectdirs/acme/inputdata/share/domains/domain.lnd.ne30np4_oEC60to30v3.161222.nc
+fsnowoptics = /project/projectdirs/acme/inputdata/lnd/clm2/snicardata/snicar_optics_5bnd_mam_c160322.nc
+fsoilordercon = /project/projectdirs/acme/inputdata/lnd/clm2/paramdata/CNP_parameters_c131108.nc
+fsnowaging = /project/projectdirs/acme/inputdata/lnd/clm2/snicardata/snicar_drdt_bst_fit_60_c070416.nc
+fsurdat = /project/projectdirs/acme/inputdata/lnd/clm2/surfdata_map/surfdata_ne30np4_simyr1850_2015_c171018.nc

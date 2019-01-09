@@ -1,0 +1,12 @@
+#!/bin/bash
+./xmlchange --force --append CAM_CONFIG_OPTS='-cosp'
+./xmlchange --force --id BUDGETS --val TRUE
+./xmlchange --force PIO_TYPENAME=netcdf
+if [ `./xmlquery --value MACH` == cetus ]||[ `./xmlquery --value MACH` == mira ]; then sed s/64M/128M/ env_mach_specific.xml >tmp && mv tmp env_mach_specific.xml; fi
+
+if [ `./xmlquery --value MACH` == theta ]; then
+  ./xmlchange --force --id NTASKS --val 1024
+  ./xmlchange --force --id ROOTPE --val 0
+  ./xmlchange --force --id JOB_WALLCLOCK_TIME --val 02:00:00
+  ./xmlchange --force --id JOB_QUEUE --val default
+fi

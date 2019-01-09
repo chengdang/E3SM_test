@@ -1,0 +1,44 @@
+2019-01-05 12:23:23: ./create_newcase --case exp.SnicarTrue.Write.cmip6-picontrol --compset A_WCYCL1850S_CMIP6 --res ne30_oECv3_ICG --mach edison --project m1795 --pecount S --user-mods-dir ../config/e3sm/testmods_dirs/allactive/v1cmip6/
+ ---------------------------------------------------
+2019-01-05 12:23:23: Compset longname is 1850_CAM5%CMIP6_CLM45%SPBC_MPASCICE%SPUNUP_MPASO%SPUNUP_MOSART_SGLC_SWAV
+ ---------------------------------------------------
+2019-01-05 12:23:23: Compset specification file is /global/u2/c/cdang/E3SM_code_v1_mdf/20180420_SW_snicar/cime/config/e3sm/allactive/config_compsets.xml
+ ---------------------------------------------------
+2019-01-05 12:23:23: Pes     specification file is /global/u2/c/cdang/E3SM_code_v1_mdf/20180420_SW_snicar/cime/config/e3sm/allactive/config_pesall.xml
+ ---------------------------------------------------
+2019-01-05 12:23:23: Forcing is 
+ ---------------------------------------------------
+2019-01-05 12:23:23: Component CPL is pre-industrial:
+ ---------------------------------------------------
+2019-01-05 12:23:23: Using None coupler instances
+ ---------------------------------------------------
+2019-01-05 12:23:23: Component ATM is cam5 physics:CAM with complete set of E3SM atmospheric mods for V1 (72 layers model) and ACES4BGC SOAG emissions- CMIP6-DECK:
+ ---------------------------------------------------
+2019-01-05 12:23:23: ATM_GRID is ne30np4
+ ---------------------------------------------------
+2019-01-05 12:23:23: Component LND is clm4.5 physics:clm4.5 Satellite phenology:clm4.5 Satellite phenology with black carbon deposition:
+ ---------------------------------------------------
+2019-01-05 12:23:23: LND_GRID is ne30np4
+ ---------------------------------------------------
+2019-01-05 12:23:23: Component ICE is MPAS seaice:
+ ---------------------------------------------------
+2019-01-05 12:23:23: ICE_GRID is oEC60to30v3_ICG
+ ---------------------------------------------------
+2019-01-05 12:23:23: Component OCN is mpas ocean default:
+ ---------------------------------------------------
+2019-01-05 12:23:23: OCN_GRID is oEC60to30v3_ICG
+ ---------------------------------------------------
+2019-01-05 12:23:23: Component ROF is MOSART:
+ ---------------------------------------------------
+2019-01-05 12:23:23: ROF_GRID is r05
+ ---------------------------------------------------
+2019-01-05 12:23:23: Component GLC is Stub glacier (land ice) component
+ ---------------------------------------------------
+2019-01-05 12:23:23: GLC_GRID is null
+ ---------------------------------------------------
+2019-01-05 12:23:23: Component WAV is Stub wave component
+ ---------------------------------------------------
+2019-01-05 12:23:23: WAV_GRID is null
+ ---------------------------------------------------
+2019-01-05 12:23:23: ESP_GRID is None
+ ---------------------------------------------------
